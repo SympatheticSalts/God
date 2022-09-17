@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Skinsuit Inc.</title>
+</head>
+<body>
+    <div class="site">
+        <div></div>
+        <div class="content">
+            <div class="navbar" id="sticky-div">
+                <a href = "#Introduction" class="navbar-button active-navbar" id = "Intro" onclick="activateButton(this.id);jump(this.id);">Intro</a>
+                <a href = "#Body Type" class="navbar-button" id = "Body" onclick="activateButton(this.id);jump(this.id);">Body Type</a>
+                <a href = "#Breast Size" class="navbar-button" id = "Breast" onclick="activateButton(this.id);jump(this.id);">Breast Size</a>
+                <a href = "#Butt" class="navbar-button" id = "Butt" onclick="activateButton(this.id);jump(this.id);">Butt</a>
+                <a href = "#Hair" class="navbar-button" id = "Hair" onclick="activateButton(this.id);jump(this.id);">Hair</a>
+                <a href = "#Species" class="navbar-button" id = "Species" onclick="activateButton(this.id);jump(this.id);">Species</a>
+=            </div>
+            <div class="main">
+                <div id = "Intro-Section" class="section">
+
+                        <div class = "introduction">
+                            <div class="shadow">
+                                <img src="res/images/god.jpg" alt="Avatar" >
+                            </div>
+                            <h1 class = "intro-text">
+                                "Yo what's up people, god here~ Just dropping by to check up on how things are go- OH SHIT... <br><br>
+                                Looks like the human-makey machine needs maintenence... Some of you girls ended up getting guy bodies! <br><br> 
+                                Tell you what, lemme make it up to you! Here, you all get to decide what kind of body you want~ I'll even let you break the rules a bit and 
+                                become a non-human if you want!<br><br>
+                                Hmm? What about everything else that's going on? Uhhhhh, oh would you look at that, it's god holiday! See you guys again in a few millenia"
+                                <br><br><br><br>
+                                <div class="faded">God is a femboy<br>FtM version coming soon!</div>
+                                <div class="faded"></div>
+                            </h1>
+                        </div>
+
+                </div>
+
+                <div id = "Body-Section" class="section">
+                    <div class = "column">
+                        <div class="section-header">Physique</div>
+                        <div class = "row">
+                            <div class="container" onclick="selectPhysique(this.id)" id="Petite">
+                                <img src="res/images/Body Type/Petite.jpg" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Petite</h1>
+                                <p class = "card-description">
+                                    Easy to toss around~
+                                </p>
+                            </div>
+                            <div class="container" onclick="selectPhysique(this.id)" id="Average1">
+                                <img src="res/images/Body Type/Average.jpg" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Average</h1>
+                                <p class = "card-description">
+                                    Best of both worlds!
+                                </p>
+                            </div>
+                            <div class="container" onclick="selectPhysique(this.id)" id="Curvy">
+                                <img src="res/images/Body Type/Curvy.jpg" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Curvy</h1>
+                                <p class = "card-description">
+                                    Smother your lover~
+                                </p>
+                            </div>
+                        </div>
+                        <div class="section-header">Muscle</div>
+                        <div class = "row">
+                            <div class="container" onclick="selectMuscle(this.id)" id="Soft">
+                                <img src="res/images/Body Type/Muscles/Soft.jpg" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Soft</h1>
+                                <p class = "card-description">
+                                    Practically a stuffed animal!
+                                </p>
+                            </div>
+                            <div class="container" onclick="selectMuscle(this.id)" id="Toned">
+                                <img src="res/images/Body Type/Muscles/Toned.jpg" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Toned</h1>
+                                <p class = "card-description">
+                                    The most lickable of midriffs~
+                                </p>
+                            </div>
+                            <div class="container" onclick="selectMuscle(this.id)" id="Muscular">
+                                <img src="res/images/Body Type/Muscles/Muscular.jpg" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Muscular</h1>
+                                <p class = "card-description">
+                                    You're the one doing the carrying~
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+ 
+
+                </div>
+
+                <div id = "Breast-Section" class="section">
+
+                    <div class = "column">
+                        <div class="section-header">Breast Size</div>
+                        <div class = "row">
+                            <div class="container" onclick="selectBreast(this.id)" id="Flat1">
+                                <img src="res/images/Breast Size/Flat.jpg" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Flat</h1>
+                                <p class = "card-description">
+                                    Romantic hugs!
+                                </p>
+                            </div>
+                            <div class="container" onclick="selectBreast(this.id)" id="Perky">
+                                <img src="res/images/Breast Size/Perky.png" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Perky</h1>
+                                <p class = "card-description">
+                                    Begging to get teased~
+                                </p>
+                            </div>
+                            <div class="container" onclick="selectBreast(this.id)" id="Average2">
+                                <img src="res/images/Breast Size/Average.jpg" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Average</h1>
+                                <p class = "card-description">
+                                    A nice handful~
+                                </p>
+                            </div>
+                            <div class="container" onclick="selectBreast(this.id)" id="Big2">
+                                <img src="res/images/Breast Size/Big.jpg" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Big</h1>
+                                <p class = "card-description">
+                                    M-mommy?!
+                                </p>
+                            </div>
+                            <div class="container" onclick="selectBreast(this.id)" id="Huge">
+                                <img src="res/images/Breast Size/Huge.jpg" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Huge</h1>
+                                <p class = "card-description">
+                                    Give your lover a taste of heaven~
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id = "Butt-Section" class="section">
+                    <div class = "column">
+                        <div class="section-header">Butt</div>
+                        <div class = "row">
+                            <div class="container" onclick="selectButt(this.id)" id="Flat2">
+                                <img src="res/images/Ass/Flat.png" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Flat</h1>
+                                <p class = "card-description">
+                                    Maximum penetration!
+                                </p>
+                            </div>
+                            <div class="container" onclick="selectButt(this.id)" id="Small">
+                                <img src="res/images/Ass/Small.jpg" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Small</h1>
+                                <p class = "card-description">
+                                    A little bit of cushion!
+                                </p>
+                            </div>
+                            <div class="container" onclick="selectButt(this.id)" id="Average3">
+                                <img src="res/images/Ass/Aaverage.jpg" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Average</h1>
+                                <p class = "card-description">
+                                    Grope bait~
+                                </p>
+                            </div>
+                            <div class="container" onclick="selectButt(this.id)" id="Big1">
+                                <img src="res/images/Ass/Big.jpg" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Big</h1>
+                                <p class = "card-description">
+                                    <i>*Slap Slap Slap*</i>
+                                </p>
+                            </div>
+                            <div class="container" onclick="selectButt(this.id)" id="Thicc">
+                                <img src="res/images/Ass/Thicc.webp" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Thicc</h1>
+                                <p class = "card-description">
+                                    Warning: Suffocation Hazard
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id = "Hair-Section" class="section">
+                    <div class = "column">
+                        <div class="section-header">Hair</div>
+                        <div class = "row">
+                            <div class="container" onclick="selectHair(this.id)" id="Short">
+                                <img src="res/images/Hair/short.jpg" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Short</h1>
+                                <p class = "card-description">
+                                    Somebody wants to be a tomboy~
+                                </p>
+                            </div>
+                            <div class="container" onclick="selectHair(this.id)" id="Ear Length">
+                                <img src="res/images/Hair/ear.jpg" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Ear Length</h1>
+                                <p class = "card-description">
+                                    The girl next door!
+                                </p>
+                            </div>
+                            <div class="container" onclick="selectHair(this.id)" id="Shoulder Length">
+                                <img src="res/images/Hair/shoulder.jpg" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Shoulder Length</h1>
+                                <p class = "card-description">
+                                    Cute AND mature~
+                                </p>
+                            </div>
+                            <div class="container" onclick="selectHair(this.id)" id="Back Length">
+                                <img src="res/images/Hair/back.png" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Back Length</h1>
+                                <p class = "card-description">
+                                    Perfect for pulling on!
+                                </p>
+                            </div>
+                            <div class="container" onclick="selectHair(this.id)" id="Waist Length">
+                                <img src="res/images/Hair/waist.jpg" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Waist Length</h1>
+                                <p class = "card-description">
+                                    <a id="hair_link" href = "https://www.reddit.com/r/hairjobhentai/" target="_blank">https://www.reddit.com/r/hairjobhentai/</a>
+                                </p>
+                            </div>
+                            <div class="container" onclick="selectHair(this.id)" id="Reaches The Floor!">
+                                <img src="res/images/Hair/floor.jpg" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Reaches The Floor!</h1>
+                                <p class = "card-description">
+                                    Careful with your step~
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id = "Species-Section" class="section">
+                    <div class = "column">
+                        <div class="section-header">Species</div>
+                        <div class = "row">
+                            <div class="container" onclick="selectSpecies(this.id)" id="Human">
+                                <img src="res/images/Species/Human.png" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Human</h1>
+                                <p class = "card-description">
+                                    Truly the most perverted of races~
+                                </p>
+                            </div>
+                            <div class="container" onclick="selectSpecies(this.id)" id="Bunnygirl">
+                                <img src="res/images/Species/Bunny.jpg" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Bunnygirl</h1>
+                                <p class = "card-description">
+                                    The pinnacle of fertility!
+                                </p>
+                            </div>
+                            <div class="container" onclick="selectSpecies(this.id)" id="Catgirl">
+                                <img src="res/images/Species/Cat.png" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Catgirl</h1>
+                                <p class = "card-description">
+                                    Two pussies for the price of one!
+                                </p>
+                            </div>
+                            <div class="container" onclick="selectSpecies(this.id)" id="Demon">
+                                <img src="res/images/Species/Demon.jpeg" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Demon</h1>
+                                <p class = "card-description">
+                                    Careful, somebody grabbing your horns will immediately turn you into a sub~
+                                </p>
+                            </div>
+                            <div class="container" onclick="selectSpecies(this.id)" id="Doggirl">
+                                <img src="res/images/Species/Dog.jpg" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Doggirl</h1>
+                                <p class = "card-description">
+                                    You're one "good girl" away from entering heat~
+                                </p>
+                            </div>
+                            <div class="container" onclick="selectSpecies(this.id)" id="Elf">
+                                <img src="res/images/Species/Elf.png" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Elf</h1>
+                                <p class = "card-description">
+                                    You can't help but view other humans as cute pets~
+                                </p>
+                            </div>
+                            <div class="container" onclick="selectSpecies(this.id)" id="Fishgirl">
+                                <img src="res/images/Species/Fish.jpg" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Fishgirl</h1>
+                                <p class = "card-description">
+                                    Being able to hold your breath for 10 minutes has its perks...
+                                </p>
+                            </div>
+                            <div class="container" onclick="selectSpecies(this.id)" id="Kitsune">
+                                <img src="res/images/Species/Fox.jpg" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Kitsune</h1>
+                                <p class = "card-description">
+                                    The ultimate weeb bait~
+                                </p>
+                            </div>
+                            <div class="container" onclick="selectSpecies(this.id)" id="Goblin">
+                                <img src="res/images/Species/Goblin.png" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Goblin</h1>
+                                <p class = "card-description">
+                                    Warning: This body is perpetually aroused
+                                </p>
+                            </div>
+                            <div class="container" onclick="selectSpecies(this.id)" id="Slime">
+                                <img src="res/images/Species/Slime.jpg" alt="Avatar" style="width:100%">
+                                <h1 class = "card-title">Slime</h1>
+                                <p class = "card-description">
+                                    Minor shapeshifting and major hugs~
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="submit" onclick="submit()">
+                <p>Finish Selection!</p>
+            </div>
+
+            <canvas id="canvas"></canvas>
+        </div>
+    </div>
+    
+
+    <script src="main.js"></script> 
+</body>
+</html>
